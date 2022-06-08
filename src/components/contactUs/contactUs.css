@@ -62,30 +62,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 78px;
-  height: 78px;
+  width: 7.8rem;
+  height: 7.8rem;
   border-radius: 50%;
   background-color: #fff6ea;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-  margin-right: 41px;
+  margin-right: 4.1rem;
 }
 
 .image-container > img {
-  width: 45px;
+  width: 4.5rem;
 }
 
-.small-card > div > h2 {
-  font-size: 3rem;
+.small-card-div > h2 {
+  font-size: 2.25rem;
   font-weight: 500;
   margin-bottom: 16px;
 }
 
-.small-card > div > div {
+.small-card-div > div > h4 {
   display: flex;
   justify-content: space-between;
   font-weight: 400;
   font-size: 1.5rem;
-  line-height: 30px;
+  line-height: 3rem;
 }
 
 .location-section {
@@ -98,46 +98,50 @@
 }
 
 .location-card-section {
-  width: 85vw;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 184px;
+  justify-content: space-around;
+  width: 90vw;
+  flex-wrap: wrap;
+  margin-bottom: 18.4rem;
 }
 
 .location-section > h1 {
   font-size: 6rem;
   font-weight: 600;
-  margin-top: 100px;
-  margin-bottom: 84px;
+  margin-top: 10rem;
+  margin-bottom: 8.4rem;
 }
 
 .location-card {
+  flex: 50%;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
   display: flex;
+  max-width: 55.5rem;
   flex-direction: column;
-  max-width: 694px;
-  padding-left: 46px;
-  padding-top: 24px;
-  padding-bottom: 45px;
+  padding-left: 4.6rem;
+  padding-top: 2.4rem;
+  padding-bottom: 4.5rem;
+  padding-right: 1rem;
+  margin-bottom: 2rem;
 }
 
 .location-card-heading {
-  margin-bottom: 12px;
+  margin-bottom: 1.2rem;
 }
 
 .location-card-heading > h2 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 3rem;
+  line-height: 4.5rem;
 }
 
 .location-card-heading > h3 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 3rem;
   line-height: 45px;
 }
 
@@ -146,25 +150,26 @@
 }
 
 .location-card-bottom-sec > img {
-  width: 341px;
-  height: 388px;
+  max-width: 34.1rem;
+  max-height: 38.8rem;
 }
 
 .location-card-bottom-sec > div {
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 38px;
-  margin-left: 24px;
+  line-height: 3.8rem;
+  margin-left: 2.4rem;
 }
 
 .location-card-bottom-sec > div > div {
-  margin-bottom: 24px;
+  margin-bottom: 2.4rem;
 }
 
 .location-card-bottom-sec > div > div > h3 {
+  font-weight: 500;
   color: #cd060d;
+  font-size: 2rem;
 }
 .location-card-bottom-sec > div > div > h4 {
   font-weight: 400;
+  font-size: 1.5rem;
   line-height: 38px;
 }

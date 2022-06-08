@@ -6,7 +6,7 @@ const SmallCard = ({ name, imgSrc, mobNo, emailId = "" }) => {
       <div className="image-container">
         <img src={imgSrc} alt={name} />
       </div>
-      <div>
+      <div className="small-card-div">
         <h2>{name}</h2>
         <div>
           <h4>{mobNo}</h4>
